@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Registro Internet</string>
+    <string name="app_titulo">Proyecto IoT</string>
+    <string name="app_descripcion">Por favor llenar la siguiente información</string>
+    <string name="app_nombre">Nombre completo</string>
+    <string name="app_calle">Nombre de la calle</string>
+    <string name="app_numerodedomicilio">Número exterioro e interior</string>
+    <string name="app_colonia">Colonia</string>
+    <string name="app_municipio">Municipio</string>
+    <string name="app_Estado">Estado</string>
+    <string name="app_compania">Compañía de internet</string>
+    <string name="app_velocidaddeconexion">Velocidad de conexión</string>
+    <string name="app_hora">Hora de toma de velocidad</string>
+    <string name="app_fecha">Día de toma de velocidad</string>
+    <string name="app_numerodedispositivos">Aproximadamente, ¿Cuántos dispositivos tienes conectados a tu red?</string>
+    <string name="app_tiposdedispositivos">¿Cuáles son los dispositivos que conectas a internet?(Selecciona todos los que apliquen)</string>
+    <string name="app_respuesta">Escribe tu repuesta</string>
+    <string name="app_botton">Enviar Respuesta</string>
+    <string name="app_ndcinco">0-5</string>
+    <string name="app_nddiez">6-10</string>
+    <string name="app_ndquince">11-15</string>
+    <string name="app_ndmas">Mas de 15</string>
+    <string name="app_tabletas">Tabletas</string>
+    <string name="app_celulares">Celulares</string>
+    <string name="app_computadoras">Computadoras</string>
+    <string name="app_television">Televisión</string>
+    <string name="app_otros">Otros : </string>
+
+</resources>

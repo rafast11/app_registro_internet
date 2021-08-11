@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="577dp"
+        android:layout_height="261dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/Sc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Vtitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_titulo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#3F51B5"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Vdescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/app_descripcion"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/VNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_nombre"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vcalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_calle"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtcalle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Wnumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_numerodedomicilio"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtnumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/Vcolonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_colonia"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtcolonia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vmunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_municipio"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtmunicipio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vestado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_Estado"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtestado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vcompania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_compania"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtcompania"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vvelocidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_velocidaddeconexion"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtvelocidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vhora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_hora"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txthora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vfecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_fecha"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtfecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vnumerodedispositios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_numerodedispositivos"
+                android:textColor="#232121"
+                android:textSize="20sp"
+                app:autoSizeTextType="none" />
+
+            <EditText
+                android:id="@+id/txtnumerodedispositivos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/Vtipodedispositios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_tiposdedispositivos"
+                android:textColor="#232121"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txttipodedispositivos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/app_respuesta"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="registrarmedicion"
+                android:text="@string/app_botton" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

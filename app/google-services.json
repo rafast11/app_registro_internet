@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "724817580331",
+    "firebase_url": "https://registro-de-internet-default-rtdb.firebaseio.com",
+    "project_id": "registro-de-internet",
+    "storage_bucket": "registro-de-internet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724817580331:android:17f13a62a7644d1023b56e",
+        "android_client_info": {
+          "package_name": "com.example.registrointernet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724817580331-90kbm5h2ek60g4slulg4oc3qaj5ph9i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxvIrtq6buETWEzIL6PqSnLApIDMwwgso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724817580331-90kbm5h2ek60g4slulg4oc3qaj5ph9i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
